@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "NewsProof",
+  "version": "0.1.0",
+  "description": "Quick provenance preview for the current page using the NewsProof verification API.",
+  "permissions": [
+    "tabs",
+    "storage",
+    "contextMenus"
+  ],
+  "host_permissions": [
+    "http://127.0.0.1:8000/*",
+    "http://localhost:8000/*",
+    "http://127.0.0.1:3000/*",
+    "http://localhost:3000/*",
+    "https://*/*",
+    "http://*/*"
+  ],
+  "action": {
+    "default_title": "NewsProof",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  }
+}

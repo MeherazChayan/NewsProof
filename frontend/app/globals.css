@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-paper text-ink font-body;
+  background-image:
+    radial-gradient(circle at top left, rgba(211, 111, 45, 0.12), transparent 34%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.6), rgba(218, 227, 220, 0.5));
+  min-height: 100vh;
+}
+
+.panel {
+  @apply rounded-3xl border border-black/10 bg-white/85 shadow-sm backdrop-blur;
+}
+
+@media print {
+  @page {
+    margin: 0.5in;
+    size: auto;
+  }
+
+  body {
+    background: #ffffff;
+    background-image: none;
+    color: #111111;
+    min-height: auto;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .report-page {
+    max-width: none;
+  }
+
+  .panel,
+  details,
+  pre {
+    break-inside: avoid;
+    box-shadow: none !important;
+    backdrop-filter: none !important;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,4 @@
+datasets>=2.20.0
+evaluate>=0.4.2
+accelerate>=0.33.0
+scikit-learn>=1.5.0

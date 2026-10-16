@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NewsProof</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">NewsProof</p>
+          <h1>Current page</h1>
+        </div>
+        <button id="settings-toggle" class="ghost-button" type="button">Settings</button>
+      </header>
+
+      <section id="status-panel" class="panel">
+        <p class="muted">Checking the current tab against NewsProof…</p>
+      </section>
+
+      <section id="settings-panel" class="panel hidden">
+        <label class="field">
+          <span>API base URL</span>
+          <input id="api-base-url" type="url" />
+        </label>
+        <label class="field">
+          <span>Web app URL</span>
+          <input id="web-base-url" type="url" />
+        </label>
+        <button id="save-settings" class="primary-button" type="button">Save settings</button>
+        <p class="muted compact">Use local defaults for development: `127.0.0.1:8000` and `127.0.0.1:3000`.</p>
+      </section>
+
+      <footer class="footer">
+        <button id="refresh-button" class="secondary-button" type="button">Run again</button>
+        <a id="open-report" class="link-button hidden" href="#" target="_blank" rel="noreferrer">Open full report</a>
+      </footer>
+    </main>
+    <script type="module" src="popup.js"></script>
+  </body>
+  </html>

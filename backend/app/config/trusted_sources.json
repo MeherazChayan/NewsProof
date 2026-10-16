@@ -1,0 +1,53 @@
+{
+  "global_news_agencies": [
+    {"domain": "reuters.com", "type": "news_agency", "priority": 1},
+    {"domain": "apnews.com", "type": "news_agency", "priority": 1},
+    {"domain": "bbc.com", "type": "news", "priority": 2}
+  ],
+  "global_fact_checkers": [
+    {"domain": "snopes.com", "type": "fact_check", "priority": 1},
+    {"domain": "politifact.com", "type": "fact_check", "priority": 1},
+    {"domain": "factcheck.org", "type": "fact_check", "priority": 1},
+    {"domain": "leadstories.com", "type": "fact_check", "priority": 1},
+    {"domain": "factcheck.afp.com", "type": "fact_check", "priority": 1},
+    {"domain": "reuters.com/fact-check", "type": "fact_check", "priority": 1}
+  ],
+  "countries": {
+    "Bangladesh": {
+      "news": ["thedailystar.net", "bdnews24.com", "prothomalo.com", "dhakatribune.com", "tbsnews.net", "newagebd.net", "bssnews.net"],
+      "fact_check": ["rumorscanner.com", "factwatch.org", "factcheck.afp.com"]
+    },
+    "India": {
+      "news": ["thehindu.com", "indianexpress.com", "hindustantimes.com", "ndtv.com", "timesofindia.indiatimes.com"],
+      "fact_check": ["boomlive.in", "altnews.in", "factly.in", "vishvasnews.com"]
+    },
+    "United States": {
+      "news": ["apnews.com", "reuters.com", "nytimes.com", "washingtonpost.com", "npr.org", "pbs.org", "cnn.com", "nbcnews.com", "abcnews.go.com", "cbsnews.com"],
+      "fact_check": ["politifact.com", "factcheck.org", "snopes.com", "leadstories.com", "reuters.com/fact-check"]
+    },
+    "United Kingdom": {
+      "news": ["bbc.com", "theguardian.com", "independent.co.uk", "sky.com", "ft.com", "reuters.com"],
+      "fact_check": ["fullfact.org", "reuters.com/fact-check"]
+    },
+    "Australia": {
+      "news": ["abc.net.au", "sbs.com.au", "smh.com.au", "theage.com.au", "afr.com", "theguardian.com/au"],
+      "fact_check": ["aap.com.au/factcheck", "rmit.edu.au/news/factlab", "reuters.com/fact-check"]
+    },
+    "Canada": {
+      "news": ["cbc.ca", "ctvnews.ca", "globalnews.ca", "theglobeandmail.com", "nationalpost.com"],
+      "fact_check": ["reuters.com/fact-check", "apnews.com"]
+    },
+    "Pakistan": {
+      "news": ["dawn.com", "tribune.com.pk", "geo.tv", "thenews.com.pk"],
+      "fact_check": ["factcheck.afp.com"]
+    },
+    "Sri Lanka": {
+      "news": ["dailymirror.lk", "newsfirst.lk", "sundaytimes.lk", "adaderana.lk", "island.lk"],
+      "fact_check": ["factcheck.lk", "factcheck.afp.com"]
+    },
+    "Malaysia": {
+      "news": ["thestar.com.my", "malaysiakini.com", "bernama.com", "nst.com.my", "freemalaysiatoday.com"],
+      "fact_check": ["sebenarnya.my", "factcheck.afp.com"]
+    }
+  }
+}

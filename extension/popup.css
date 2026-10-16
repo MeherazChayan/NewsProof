@@ -1,0 +1,166 @@
+:root {
+  color-scheme: light;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f4f0e8;
+  color: #171717;
+}
+
+body {
+  margin: 0;
+  min-width: 360px;
+  background:
+    radial-gradient(circle at top left, rgba(203, 109, 33, 0.14), transparent 35%),
+    linear-gradient(180deg, #f7f4ed 0%, #f1ede3 100%);
+}
+
+.shell {
+  padding: 16px;
+}
+
+.topbar,
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.eyebrow {
+  margin: 0 0 4px;
+  font-size: 11px;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: rgba(23, 23, 23, 0.55);
+}
+
+h1 {
+  margin: 0;
+  font-size: 26px;
+  line-height: 1.1;
+}
+
+.panel {
+  margin-top: 14px;
+  border: 1px solid rgba(23, 23, 23, 0.08);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.78);
+  box-shadow: 0 10px 24px rgba(23, 23, 23, 0.06);
+  padding: 16px;
+}
+
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 8px 14px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.status-badge.Verified {
+  background: #113b24;
+  color: #f7fff9;
+}
+
+.status-badge.Not\ Verifiable {
+  background: #f0e4cf;
+  color: #65411e;
+}
+
+.status-badge.Verification\ Failed,
+.status-badge.Timeout {
+  background: #171717;
+  color: #ffffff;
+}
+
+.domain {
+  margin: 10px 0 0;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(23, 23, 23, 0.55);
+}
+
+.headline {
+  margin: 12px 0 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.reason {
+  margin: 10px 0 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: rgba(23, 23, 23, 0.76);
+}
+
+.muted {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.45;
+  color: rgba(23, 23, 23, 0.62);
+}
+
+.compact {
+  margin-top: 12px;
+}
+
+.field {
+  display: block;
+  margin-bottom: 12px;
+}
+
+.field span {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.field input {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid rgba(23, 23, 23, 0.12);
+  border-radius: 14px;
+  padding: 10px 12px;
+  font-size: 13px;
+  background: #ffffff;
+}
+
+.primary-button,
+.secondary-button,
+.ghost-button,
+.link-button {
+  appearance: none;
+  border: 0;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 10px 14px;
+  text-decoration: none;
+}
+
+.primary-button {
+  background: #cb6d21;
+  color: #ffffff;
+}
+
+.secondary-button {
+  background: #171717;
+  color: #ffffff;
+}
+
+.ghost-button {
+  background: rgba(23, 23, 23, 0.06);
+  color: #171717;
+}
+
+.link-button {
+  background: rgba(203, 109, 33, 0.12);
+  color: #8c4713;
+}
+
+.hidden {
+  display: none;
+}
