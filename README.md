@@ -1,6 +1,6 @@
 # NewsProof
 
-NewsProof is an MVP web application for verifying the provenance of news content. It accepts article URLs, pasted text, and uploaded images, then runs a 5-layer verification pipeline and presents a clear verification label, proof summary, and audit trail.
+NewsProof is an MVP web application for verifying the provenance of news content. It accepts article URLs, pasted text, uploaded images, uploaded audio , and uploaded video; then runs a 4-layer verification pipeline and presents a clear verification label, proof summary, and audit trail.
 
 ## Stack
 
